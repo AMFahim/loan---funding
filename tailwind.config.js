@@ -11,7 +11,8 @@ module.exports = {
     },
     colors:({colors}) => ({
       ...colors,
-      "primary": "#E73C3E"
+      "primary": "#E73C3E",
+      "advantage-1": "#F5F4EF"
     })
   },
   plugins: [],

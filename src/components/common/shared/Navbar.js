@@ -18,13 +18,13 @@ const Navbar = () => {
     color: "#E73C3E"
   };
   return (
-    <div>
+    <div className='sticky top-0'>
       <nav className="bg-white border-[1px] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <NavLink to="/" className="flex items-center">
             <img src={Logo} className="mr-px h-8 sm:h-9" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Speedy</span>
-          </a>
+          </NavLink>
           <div className="flex md:order-2">
             <UiButton label="Apply Now"></UiButton>
             <button data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">

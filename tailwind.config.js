@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily:{
         poppins: ["Poppins, sans-serif"]
+      },
+      backgroundImage: {
+        "transparent-card": "url('./Assets/image/processShape.png')"
       }
     },
     colors:({colors}) => ({

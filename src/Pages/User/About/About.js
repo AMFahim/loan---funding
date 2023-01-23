@@ -1,10 +1,11 @@
 import React from 'react';
 import MainLayout from '../../../Layout/MainLayout';
+import AboutCompany from '../Home/components/AboutCompany';
 
 const About = () => {
   return (
     <MainLayout>
-      <h1>This is about page</h1>
+      <AboutCompany/>
     </MainLayout>
   );
 };

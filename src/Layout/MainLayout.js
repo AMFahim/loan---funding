@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/common/shared/Footer';
 // import { Outlet } from 'react-router-dom';
 import Navbar from '../components/common/shared/Navbar';
 
@@ -8,7 +9,7 @@ const MainLayout = ({children}) => {
       <Navbar/>
       {/* <Outlet /> */}
       {children}
-      <h1>This is footer</h1>
+      <Footer/>
     </div>
   );
 };

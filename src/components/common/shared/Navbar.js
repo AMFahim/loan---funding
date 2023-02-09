@@ -9,7 +9,7 @@ const navigation = [
   {name: 'Services', to: "/services", current: false},
   {name: 'Funding', to: "/Funding", current: false},
   {name: 'Loans', to: "/Loans", current: false},
-  {name: 'Contact', to: "/contact", current: false},
+  {name: 'Contact', to: "/login", current: false},
 ]
 
 const Navbar = () => {

@@ -9,7 +9,7 @@ const LoanCategory = () => {
                 <h2 className="text-4xl font-semibold">Only the best professional services</h2>
                 <p className='px-auto text-gray-500 font-medium sm:px-96'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <div className="flex p-12 justify-between font-poppins">
+            <div className="flex flex-wrap p-12 justify-between font-poppins">
                 {
                     LoanCategoryData.map(item => 
                         <div key={item.id} className="cursor-pointer">

@@ -1,4 +1,5 @@
 import AuthRoutes from "./Routes/AuthRoutes";
+import DashboardRoutes from "./Routes/DashboardRoutes";
 import MainRoutes from "./Routes/MainRoutes";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <MainRoutes/>
       <AuthRoutes />
+      <DashboardRoutes />
     </div>
   );
 }

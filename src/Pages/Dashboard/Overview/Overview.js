@@ -1,10 +1,13 @@
 import React from 'react';
 import DashboardLayout from '../../../Layout/DashboardLayout';
+import Loancard from './cards/LoanCard';
+import UpcomingLoan from './cards/UpcomingLoan';
 
-const Overview = () => {
+const Overview = (props) => {
     return (
         <DashboardLayout>
-            <h2 >This is over view page </h2>
+          <Loancard />
+          <UpcomingLoan />
         </DashboardLayout>
     );
 };

@@ -10,7 +10,7 @@ import {IoMdNotifications} from "react-icons/io";
 
 const DashboardTopbar = () => {
     return (
-        <div>
+        <div className='w-full'>
             <div className="navbar bg-primary text-white grid grid-cols-10 border-b-[3px]  py-4 h-20">
                 <div className="col-span-2 px-10">
                     <Link to="/overview">
@@ -41,7 +41,7 @@ const DashboardTopbar = () => {
                                         <li>company_details_profile</li>
                                     </Link>
 
-                                    <li onClick={""}>sign_out</li>
+                                    <li onClick={``}>sign_out</li>
                                 </ul>
                             </li>
                         </ul>
